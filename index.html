@@ -3,65 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tellamekala Golla Vamsi | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Professional Business Solutions and Services">
+    <title>Enterprise Solutions</title>
+    <!-- Google Fonts for modern typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <!-- Header / Navigation -->
-    <header>
-        <div class="nav-container">
-            <h1 class="logo">Vamsi</h1>
-            <nav>
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-                <!-- Place this inside index.html where you want the banner to display -->
-<img src="WhatsApp Image 2026-09-02 at 12.21.38 PM.jpg" alt="Hiring Banner" style="max-width:100%; height:auto;">
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Apex<span>Solutions</span></a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact" class="btn btn-primary">Contact Us</a></li>
+                </ul>
             </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h2>Hi, I'm <span>Tellamekala Golla Vamsi</span></h2>
-        <p>Welcome to my personal portfolio. I build web projects and share my work here.</p>
-        <a href="#projects" class="btn">View My Work</a>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="section">
-        <h2>About Me</h2>
-        <p>I am passionate about technology and web development. This site is hosted for free using GitHub Pages as I learn and showcase my projects.</p>
-    </section>
-
-    <!-- "hiring-banner.jpg" -->
-    <section id="projects" class="section gray-bg">
-        <h2>Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <h3>Project Title 1</h3>
-                <p>A brief description of what this project does and the technology used to build it.</p>
-                <a href="#" class="card-link">View Project &rarr;</a>
-            </div>
-            <div class="project-card">
-                <h3>Project Title 2</h3>
-                <p>A brief description of what this project does and the technology used to build it.</p>
-                <a href="#" class="card-link">View Project &rarr;</a>
+    <!-- Hero Section with Background Image -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>Driving Growth Through Innovative Business Solutions</h1>
+            <p>We help organizations streamline operations, optimize strategy, and scale efficiently.</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">Our Services</a>
+                <a href="#about" class="btn btn-outline">Learn More</a>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <h2>Get In Touch: 9603019118</h2>
-        <p>Feel free to reach out if you'd like to collaborate or connect!</p>
-        <a href="mailto:your-email@example.com" class="btn">Email Me:vamshidolls@gmail.com</a>
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Core Capabilities</h2>
+                <p>Delivering strategic expertise tailored to your operational goals.</p>
+            </div>
+            <div class="grid cards-grid">
+                <article class="card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Strategic Consulting</h3>
+                    <p>Actionable insights and tailored guidance to navigate complex industry challenges.</p>
+                </article>
+                <article class="card">
+                    <div class="card-icon">📊</div>
+                    <h3>Data & Performance</h3>
+                    <p>Leverage operational metrics and modern analytics to maximize efficiency.</p>
+                </article>
+                <article class="card">
+                    <div class="card-icon">🛡️</div>
+                    <h3>Enterprise Risk</h3>
+                    <p>Comprehensive evaluation and strategy implementation to secure key assets.</p>
+                </article>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Tellamekala Golla Vamsi. All rights reserved.</p>
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 ApexSolutions. All rights reserved.</p>
+        </div>
     </footer>
 
 </body>
