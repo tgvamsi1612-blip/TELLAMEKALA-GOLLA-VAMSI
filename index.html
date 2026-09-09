@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Professional Business Solutions and Services">
     <title>Enterprise Solutions</title>
-    <!-- Google Fonts for modern typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -22,7 +21,7 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#contact" class="btn btn-primary">Contact Us: 9603019118</a></li>
+                    <li><a href="#contact" class="btn btn-primary">Contact Us</a></li>
                 </ul>
             </nav>
         </div>
@@ -68,12 +67,22 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="site-footer">
-        <div class="container footer-content">
-            <p>&copy; 2026 TG Solutions. All rights reserved.</p>
+    <!-- About Section with Image -->
+    <section id="about" class="about-section">
+        <div class="container about-grid">
+            <div class="about-image">
+                <!-- Relative path pointing to your image -->
+                <img src="images/about-us.jpg" alt="Our team working in the office" onerror="this.src='https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80'">
+            </div>
+            <div class="about-content">
+                <h2>About Our Company</h2>
+                <p>Founded with a vision to transform how businesses handle complex challenges, our team brings decades of combined expertise in strategy, performance optimization, and enterprise solutions.</p>
+                <p>We partner closely with organizations to turn ambitious goals into measurable, sustainable results.</p>
+            </div>
         </div>
-   <!-- About Section -->
+    </section>
+
+    <!-- About Section -->
     <section id="about" class="services-section" style="background-color: #ffffff;">
         <div class="container">
             <div class="section-title">
@@ -84,7 +93,8 @@
                 <p>Founded with a vision to transform how businesses handle complex challenges, our team brings decades of combined expertise in strategy, performance optimization, and enterprise solutions. We partner closely with organizations to turn ambitious goals into measurable results.</p>
             </div>
         </div>
-        <!-- Contact Section -->
+    </section>
+    <!-- Contact Section -->
     <section id="contact" class="contact-section">
         <div class="container">
             <div class="section-title">
@@ -120,7 +130,12 @@
             </div>
         </div>
     </section>
-    </section> </footer>
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 TG Solutions. All rights reserved.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
